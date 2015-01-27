@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MyLibrary', :exclusive => true do
+  pod "MyLibrary", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "MyLibrary", :path => "../"
+
+  
+end
