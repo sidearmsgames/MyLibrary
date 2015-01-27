@@ -1,4 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
+pod 'CocoaLumberjack', '~> 1.9'
 
 target 'MyLibrary', :exclusive => true do
   pod "MyLibrary", :path => "../"
